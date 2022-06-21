@@ -70,68 +70,38 @@ public class MainActivity extends AppCompatActivity {
 
         mStringList=new ArrayList<String>();
 
-        mStringList.add("A1-Lectores-Soraya Velazques");
-        mStringList.add("A1-Lectores-Sandra Medina");
-        mStringList.add("A1-Lectores-Janeth Molina");
-        mStringList.add("A1-Lectores-Vannesa Castillo");
-        mStringList.add("A2-MEJ-John Izaguirre");
-        mStringList.add("A2-MEJ-Aynoha Santos");
-        mStringList.add("A2-Catequistas-María Bone");
-        mStringList.add("A2-Catequistas-Wilmer Tipan");
-        mStringList.add("B1-Reservados 3era Edad");
-        mStringList.add("B2-Ministros-Carlos Torres");
-        mStringList.add("B2-Ministros-Cecilia Sanchez");
-        mStringList.add("B2-Invitados(Padre)-Ney Segura");
-        mStringList.add("B2-Invitados(Padre)-Rina Alvarez");
-        mStringList.add("B3-San José-Johan Andrade");
-        mStringList.add("B3-San José-Vanessa Lua");
-        mStringList.add("B3-Reservados-Mariuxi Pazminño");
-        mStringList.add("B4-Divina Misericordia-Fanny Quinde");
-        mStringList.add("B4-Divina Misericordia-Lency Olvera");
-        mStringList.add("B4-Lectores-Dora Diaz");
-        mStringList.add("B4-Lectores-Narcisa Calle");
-        mStringList.add("B5-Ora. Barcelona-Marisol Romero");
-        mStringList.add("B5-Ora. Sevilla-Gricelda Cabrera");
-        mStringList.add("B5-Ora. Sevilla-Zully Vergara");
-        mStringList.add("B6-Ora. Victoria-Elsie Soledispa");
-        mStringList.add("B6-Ora. Victoria-Nancy Villon");
-        mStringList.add("B6-Ora. Toledo-Ana Mite");
-        mStringList.add("B6-Ora. Toledo-Tateana Palacios");
-        mStringList.add("B7-Ora. Colina-Gloria Zambrano");
-        mStringList.add("B7-Ora. Colina-Monica Santa Cruz");
-        mStringList.add("B7-Ora. Geranios-Maria Fernanda Briones");
-        mStringList.add("B7-Ora. Geranios-Margarita Mera");
-        mStringList.add("B8-Ofrendas");
-        mStringList.add("C1-Reservados 3era Edad");
-        mStringList.add("C2-Monaguillos Servidores-Sara Moreno");
-        mStringList.add("C2-Monaguillos Servidores-Bianca Montero");
-        mStringList.add("C2-Monaguillos Servidores-Luna Macías");
-        mStringList.add("C2-Monaguillos Servidores-Pedro Diaz");
-        mStringList.add("C3-Monaguillos Altar-Josue Burgos");
-        mStringList.add("C3-Monaguillos Altar-Kevin Martinez");
-        mStringList.add("C4-Altar");
-        mStringList.add("C5-Málaga-Maria Elena Sandoya");
-        mStringList.add("C5-Málaga-Monica Flores Ledesma");
-        mStringList.add("C5-Valencia-Amalia Montoya");
-        mStringList.add("C5-Valencia-Anita Sandoya");
-        mStringList.add("C6-Madrid-Mayra Córdova");
-        mStringList.add("C6-Madrid-Martha Mueses");
-        mStringList.add("C6-Mallorca-Marivel Anastacio");
-        mStringList.add("C6-Mallorca-Bella Barreiro");
-        mStringList.add("C7-FMC-Familia Duran Jimenez");
-        mStringList.add("C8-Ofrendas");
-        mStringList.add("D1-Vacio");
-        mStringList.add("D2-Firmantes-Narcisa Bonilla");
-        mStringList.add("D2-Firmantes-Ana Chuchuca");
-        mStringList.add("D2-Firmantes-Nora Alvarez");
-        mStringList.add("D2-Firmantes-Esperanza Peñafiel");
-        mStringList.add("D3-Firmantes-Jacinto Vera");
-        mStringList.add("D3-Pro Vida-Mercedes Hernandez");
-        mStringList.add("D3-Pro Salud-Patricia Encalada");
-        mStringList.add("D4-Legión de María-Gladys Parra");
-        mStringList.add("D4-Legión de María-Narcisa Vera");
-        mStringList.add("D4-Carismáticos");
-        mStringList.add("D4-Cofradía del Corazón de Jesús-Elizabeth Calle");
+        mStringList.add("A1-Lectores y Salmistas");
+        mStringList.add("A2-Lectores y Salmistas");
+
+        mStringList.add("A4-Tercera Edad y Discapacitados");
+        mStringList.add("A5-Tercera Edad y Discapacitados");
+        mStringList.add("A6-Tercera Edad y Discapacitados");
+        mStringList.add("A7-Tercera Edad y Discapacitados");
+
+        mStringList.add("A8-Oratorios");
+        mStringList.add("A9-Oratorios");
+        mStringList.add("B8-Oratorios");
+        mStringList.add("B9-Oratorios");
+
+        mStringList.add("B2-Legión de María");
+        mStringList.add("C1-Legión de María");
+        mStringList.add("C2-Legión de María");
+
+        mStringList.add("B3-Monaguillos");
+
+        mStringList.add("B4-Cofradía San José");
+        mStringList.add("B5-Catequistas");
+        mStringList.add("B6-Catequistas");
+
+        mStringList.add("B7-Renovación Carismática");
+        mStringList.add("C3-Movimiento Eucarístico Juvenil");
+        mStringList.add("C4-Movimiento Eucarístico Juvenil");
+
+        mStringList.add("C5-Divina Misericordia");
+
+        mStringList.add("C6-Familias Misioneras de Cristo");
+        mStringList.add("C7-Familias Misioneras de Cristo");
+
 
         mSearchTw=new TextWatcher() {
 

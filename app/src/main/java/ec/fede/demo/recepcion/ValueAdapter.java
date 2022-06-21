@@ -9,7 +9,10 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
+import java.text.Normalizer;
 import java.util.ArrayList;
+
+import static java.text.Normalizer.*;
 
 public class ValueAdapter extends BaseAdapter implements Filterable {
 
@@ -112,7 +115,12 @@ public class ValueAdapter extends BaseAdapter implements Filterable {
 
                 for(int i=0;i<mStringFilterList.size();i++){
 
-                    if(mStringFilterList.get(i).toLowerCase().contains(constraint)) {
+                    String valueToSearch = mStringFilterList.get(i).toLowerCase();
+
+                    valueToSearch = normalize(valueToSearch, Form.NFD);
+                    valueToSearch = valueToSearch.replaceAll("[^\\p{ASCII}]", "");
+
+                    if(valueToSearch.contains(constraint)) {
 
                         filterList.add(mStringFilterList.get(i));
 
